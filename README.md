@@ -1,5 +1,7 @@
 # ML Systems Blueprint
 
+> **Note**: This repository was initially created end-to-end by OpenClaw using GPT-5.2-Codex to demonstrate the capabilities of agentic systems. The README has been enhanced with comprehensive documentation for better usability.
+
 A **production-minded ML starter repository** that provides a solid foundation for machine learning projects with reproducible experiments, clean packaging, a command-line interface, comprehensive tests, linting, and CI/CD pipeline.
 
 ## 🎯 Features
