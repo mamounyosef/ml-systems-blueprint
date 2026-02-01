@@ -1,5 +1,9 @@
 # ml-systems-blueprint
 
+Note: This whole repo was created End to End by OpenClaw using GPT-5.2-Codex, without any human intervention.
+The goal here was to demonstrate the capability and extendibility of Agentic systems like this.
+
+
 A **production-minded ML starter repo**: reproducible experiments, clean packaging, a tiny CLI, tests, linting, and CI.
 
 It ships with a complete, end-to-end example:
