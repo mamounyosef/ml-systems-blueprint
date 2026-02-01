@@ -28,14 +28,24 @@ pytest -q
 
 ### 3) Train a model
 
+Recommended (config-driven):
+
+```bash
+python -m ml_systems_blueprint run --config configs/default.yaml
+```
+
+Quick path (defaults):
+
 ```bash
 python -m ml_systems_blueprint train --out-dir artifacts
 ```
 
 Artifacts written to `artifacts/`:
+- `model.joblib` (pipeline + tuned threshold)
 - `metrics.json`
+- `params.json`
+- `roc.png`, `pr.png`, `calibration.png`
 - `confusion_matrix.png`
-- `model.joblib`
 
 ### 4) Evaluate the saved model
 

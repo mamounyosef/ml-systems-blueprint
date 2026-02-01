@@ -16,6 +16,7 @@ def build_pipeline(seed: int = 42) -> Pipeline:
                     max_iter=5000,
                     random_state=seed,
                     n_jobs=None,
+                    solver="lbfgs",
                 ),
             ),
         ]

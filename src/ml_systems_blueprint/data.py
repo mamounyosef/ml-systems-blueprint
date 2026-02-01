@@ -17,7 +17,10 @@ class Dataset:
 
 
 def load_dataset(seed: int = 42, test_size: float = 0.2) -> Dataset:
-    """Load a small, built-in dataset (no downloads) and perform a deterministic split."""
+    """Load a small, built-in dataset (no downloads) and perform a deterministic split.
+
+    Note: this is intentionally "offline" so CI is stable and the repo works out-of-the-box.
+    """
     ds = load_breast_cancer()
     X = ds.data
     y = ds.target
